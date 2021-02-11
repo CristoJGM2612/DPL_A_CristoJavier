@@ -45,8 +45,8 @@ Debes subir a tu repositorio de GitHub un documento escrito en sintaxis MarkDown
 
     Crea una carpeta llamada compartida con varios ficheros llamados compartida1.txt, compartida2.txt y compartida3.txt. Haz que se muestre el listado de los mismos al entrar en la url www.sitio2.com/compartida.
     -Al igual que en en anterior apartado, debemos de configuar el archivo que se encuentra en /etc/apache2/sites-avaliable/sitio2.conf, como se muestra en la imagen
-    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-5.PNG?raw=true)
-
+    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-10.PNG?raw=true)
+    
 6. REDIRECT.
 
     Prueba y explica la diferencia entre el Alias y el Redirect. Utiliza las dos directivas para hacer que cuando entramos en http://www.sitio1.com/mas_info se acceda a los ficheros de la carpeta mas_informacion. Para ello tendrás que hacer primero algo parecido a Alias /mas_info /www/sitio1/mas_informacion y luego prueba a poner un Redirect /mas_info http://www.sitio1.com/mas_informacion.
@@ -57,7 +57,7 @@ Debes subir a tu repositorio de GitHub un documento escrito en sintaxis MarkDown
 
     Configura el servidor para que cuando se solicite una página que no existe nos devuelva la página de error 404.html que se adjunta.
     - Por alguna razón no muestra la página, aunque si muestra un mensaje de que recibe la petición de mostrarla
-    
+    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-5.PNG?raw=true)
 
 8. AUTENTICACION BASIC.
 
