@@ -86,4 +86,5 @@ Configura el protocolo de conexión HTTPSen el servidor así como la redirecció
     - Primero activamos el flujo de datos, con ufw enable
     - Luego instalamos cerbot y elegimos en que "dominios" queremos aplicar el certificado
     - Esperamos y listo
-    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-8.PNG?raw=true)
+    
+   ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-8.PNG?raw=true)
