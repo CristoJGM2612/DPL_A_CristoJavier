@@ -123,18 +123,28 @@ Debes subir a tu repositorio de GitHub un documento escrito en sintaxis MarkDown
 1. CREACIÓN DE UN SITIO VIRTUAL.
 
     Crea dos sitios virtuales: www.sitio1.com y www.sitio2.com. 
+    cd var/www
+    
+    tree
+    captura
 
 2. PUERTOS DE ESCUCHA.
 
     Configura tu servidor para que cada sitio funcione en un puerto distinto.
+    
+    cat /var/apache2/sites-avaliable/sitio1.conf
+    cat /var/apache2/sites-avaliable/sitio2.conf
 
 3. DIRECTIVA DIRECTORY.
 
     Haz los cambios necesarios para tener un domino www.sitio2.com cuya carpeta de publicación con ficheros sea /www/sitio2. Crea en esta carpeta un archivo html con el mensaje BIENVENIDO AL SITIO 2, de forma que al entrar nos muestre la mencionada página.
+    
+    cat /var/www/sitio2/index.html
 
 4. DIRECTIVA ALIAS.
 
     Utiliza un nuevo alias para publicar ficheros que se encuentren dentro de /www/publico. Crea en esta carpeta un archivo html con el mensaje BIENVENIDO AL SITIO PÚBLICO, de forma que al entrar nos muestre la mencionada página.
+   
 
 5. OPTION INDEXES.
 
