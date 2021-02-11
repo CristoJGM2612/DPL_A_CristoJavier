@@ -23,16 +23,20 @@ Debes subir a tu repositorio de GitHub un documento escrito en sintaxis MarkDown
     
     cat /var/apache2/sites-avaliable/sitio1.conf
     cat /var/apache2/sites-avaliable/sitio2.conf
-
+    
+    - Traté de congigurarlo, pero no reconocía la configuración y adquiría la conf del otro dominio, así que opté por no configurarlo
+    
 3. DIRECTIVA DIRECTORY.
 
     Haz los cambios necesarios para tener un domino www.sitio2.com cuya carpeta de publicación con ficheros sea /www/sitio2. Crea en esta carpeta un archivo html con el mensaje BIENVENIDO AL SITIO 2, de forma que al entrar nos muestre la mencionada página.
     
     cat /var/www/sitio2/index.html
+ 
 
 4. DIRECTIVA ALIAS.
 
     Utiliza un nuevo alias para publicar ficheros que se encuentren dentro de /www/publico. Crea en esta carpeta un archivo html con el mensaje BIENVENIDO AL SITIO PÚBLICO, de forma que al entrar nos muestre la mencionada página.
+    - Debemos de editar el archivo que se encuentra en /etc/apache2/sites-avaliable/sitio1.conf, como se muestra en la imagen
    
 
 5. OPTION INDEXES.
