@@ -70,13 +70,14 @@ El grupo2 debe poder acceder a todo el site, mientras que el grupo1 tienen el ac
     - Debemos de configurar cada usuario con httpasswd (-c solo la primera vez, para crear el documento txt con las contraseñas) nombrearchivo.txt nombreusuario
     - También debemos de crear los grupos pertinentes, con un simple nano bastará
     - Los archivos resultantes: 
-    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-6.PNG?raw=true)
-    - Para finalizar debemos de activar el modulo: authz_groupfile y añadir las restricciones en el archivo de configuración pertinente
-    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-7.PNG?raw=true)
+   ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-6.PNG?raw=true)
+     - Para finalizar debemos de activar el modulo: authz_groupfile y añadir las restricciones en el archivo de configuración pertinente
+   ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-7.PNG?raw=true)
 9. AUTENTICACION DIGEST.
 
 Crea dos subdirectorios en el host virtual sitio1 que se llamen users1 y users2. Crea varios usuarios con la utilidad htdigest, asignando a cada uno un dominio distinto (domusers1 y domusers2). Configura los directorios para que al primero (users1) sólo puedan acceder los usuarios del dominio domusers1, y el directorio users2 solo accedan los usuarios del dominio domusers2.
-    ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-9.PNG?raw=true)
+    
+   ![](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-9.PNG?raw=true)
 
 10.HTTPS.
 
