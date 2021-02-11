@@ -15,7 +15,7 @@ Debes subir a tu repositorio de GitHub un documento escrito en sintaxis MarkDown
     cd var/www
     
     tree
-    [](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-1.PNG?raw=true)
+    [](https://github.com/CristoJGM2612/DPL_A_CristoJavier/blob/master/Captura-1.PNG)
 
 2. PUERTOS DE ESCUCHA.
 
